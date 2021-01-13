@@ -1,0 +1,3 @@
+mutation config($searchTerm: String) {
+  config(config: { searchTerm: $searchTerm })
+}

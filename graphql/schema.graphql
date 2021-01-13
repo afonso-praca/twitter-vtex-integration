@@ -1,0 +1,32 @@
+# To really understand GraphQL, go to http://graphql.org/guide/
+
+type TwitterUser {
+  name: String,
+  profile_image: String
+}
+
+type Tweet {
+  text: String,
+  created_at: String,
+  user: TwitterUser
+}
+
+type Config {
+  searchTerm: String
+}
+
+input ConfigInputType {
+  searchTerm: String
+}
+
+type Query {
+  # Cache control can only be set at root fields
+  search: [Tweet] @cacheControl(scope: PUBLIC, maxAge: SHORT)
+  token: String @cacheControl(scope: PUBLIC, maxAge: SHORT)
+  config: Config @cacheControl(scope: PUBLIC, maxAge: SHORT)
+}
+
+type Mutation {
+  token(token: String): String
+  config(config: ConfigInputType): String
+}

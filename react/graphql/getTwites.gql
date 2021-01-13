@@ -1,0 +1,8 @@
+query getTwites {
+  search {
+    text
+    user {
+      name
+    }
+  }
+}

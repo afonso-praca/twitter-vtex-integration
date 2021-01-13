@@ -1,0 +1,46 @@
+{
+  "name": "twitter-integration",
+  "vendor": "demostore",
+  "version": "3.2.1",
+  "title": "VTEX IO App Example",
+  "description": "Reference app for VTEX IO",
+  "mustUpdateAt": "2022-01-04",
+  "categories": [],
+  "dependencies": {
+    "vtex.styleguide": "9.x"
+  },
+  "builders": {
+    "graphql": "1.x",
+    "node": "6.x",
+    "admin": "0.x",
+    "messages": "1.x",
+    "react": "3.x",
+    "store": "0.x"
+  },
+  "scripts": {
+    "prereleasy": "bash lint.sh"
+  },
+  "credentialType": "absolute",
+  "policies": [
+    {
+      "name": "colossus-fire-event"
+    },
+    {
+      "name": "colossus-write-logs"
+    },
+    {
+      "name": "graphql-query"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.twitter.com",
+        "path": "/1.1/search/tweets.json"
+      }
+    },
+    {
+      "name": "vbase-read-write"
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

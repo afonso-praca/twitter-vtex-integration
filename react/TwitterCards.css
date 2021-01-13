@@ -1,0 +1,55 @@
+.tweets {
+  margin: 0;
+  background-color: #F7EEED;
+  padding: 7px 31px;
+}
+
+.container {
+  display: block;
+  width: 1136px;
+  margin: 25px auto;
+}
+
+.tweetsContainer {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.tweets li {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #727273;
+  padding: 24px 0;
+}
+
+.tweets li + li {
+  border-top: 1px #E9CDC9 solid;
+}
+
+.locationContainer {
+  width: 33%;
+  padding: 60px;
+  box-sizing: border-box;
+  background-color: #212221;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  text-align: center;
+  font-size: 64px;
+  color: #F7EEED;
+  margin: 0;
+}
+
+.userName {
+  color: #BC645A;
+}
+
+.title {
+  text-align: center;
+}

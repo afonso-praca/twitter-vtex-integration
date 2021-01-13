@@ -1,0 +1,6 @@
+{
+  "admin.app.twitter": {
+    "component": "AdminTwitter",
+    "path": "/admin/app/twitter"
+  }
+}
