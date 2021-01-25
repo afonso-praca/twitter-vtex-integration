@@ -1,4 +1,3 @@
-import { userInfo } from 'os'
 import React, { FC } from 'react'
 import { useQuery } from 'react-apollo'
 import getTwites from './graphql/getTwites.gql'
