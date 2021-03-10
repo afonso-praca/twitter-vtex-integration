@@ -1,5 +1,5 @@
 {
-  "twitter-integration.navigation.label": "Twitter Integration",
+  "twitter-integration.navigation.label": "This is the name of the app that is going to be showed in the left side menu",
   "twitter-integration.navigation.search.kws": "Twitter",
   "editor.twitter-integration.title": "Title",
   "editor.twitter-integration.description": "Twitter news title"

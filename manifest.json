@@ -1,11 +1,9 @@
 {
   "name": "twitter-integration",
-  "vendor": "demostore",
+  "vendor": "appliancetheme",
   "version": "3.2.1",
   "title": "VTEX IO App Example",
   "description": "Reference app for VTEX IO",
-  "mustUpdateAt": "2022-01-04",
-  "categories": [],
   "dependencies": {
     "vtex.styleguide": "9.x"
   },
@@ -17,13 +15,12 @@
     "react": "3.x",
     "store": "0.x"
   },
-  "scripts": {
-    "prereleasy": "bash lint.sh"
-  },
-  "credentialType": "absolute",
   "policies": [
     {
       "name": "colossus-fire-event"
+    },
+    {
+      "name": "OMSViewer"
     },
     {
       "name": "colossus-write-logs"
