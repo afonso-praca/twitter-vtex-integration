@@ -4,16 +4,9 @@
   padding: 7px 31px;
 }
 
-.container {
-  display: block;
-  width: 1136px;
-  margin: 25px auto;
-}
-
 .tweetsContainer {
   width: 100%;
   margin: 0;
-  display: flex;
   justify-content: center;
 }
 
@@ -34,22 +27,20 @@
   padding: 60px;
   box-sizing: border-box;
   background-color: #212221;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.locationContainerMobile {
+  padding: 20px;
+  background-color: #212221;
+}
+
 .location {
-  text-align: center;
-  font-size: 64px;
   color: #F7EEED;
   margin: 0;
 }
 
 .userName {
   color: #BC645A;
-}
-
-.title {
-  text-align: center;
 }
