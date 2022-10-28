@@ -1,19 +1,19 @@
 {
   "name": "twitter-integration",
   "vendor": "demostore",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "title": "VTEX IO App Example",
   "description": "Reference app for VTEX IO",
   "dependencies": {
     "vtex.styleguide": "9.x"
   },
   "builders": {
-    "graphql": "1.x",
     "node": "6.x",
-    "admin": "0.x",
-    "messages": "1.x",
+    "graphql": "1.x",
     "react": "3.x",
-    "store": "0.x"
+    "admin": "0.x",
+    "store": "0.x",
+    "messages": "1.x"
   },
   "policies": [
     {
