@@ -1,7 +1,7 @@
 {
   "name": "twitter-integration",
   "vendor": "blindstogouk",
-  "version": "3.8.0",
+  "version": "3.9.0",
   "title": "VTEX IO App Example",
   "description": "Reference app for VTEX IO",
   "dependencies": {
