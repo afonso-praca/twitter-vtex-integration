@@ -35,8 +35,8 @@ const TwitterCards = ({ title = 'News from Twitter' }: Props) => {
   const firstFourTweets = data?.search.slice(0, 4) ?? []
 
   return (
-    <div className="w-80-ns w-90 mv-2 db center mt7 mw9">
-      <h2 className="tc">{title}</h2>
+    <div className={`w-80-ns w-90 mv-2 db center mt7 mw9 mb6 `+`${styles.twitterMainContainer}`}>
+      <h2 className={`tc `+`${styles.title}`}>{title}</h2>
       <div className={`db flex-ns `+`${styles.tweetsContainer}`}>
         <div className={`dn flex-ns `+`${styles.locationContainer}`}>
           <p className={`tc f1 `+`${styles.location}`}>"{config?.config.searchTerm ?? ''}"</p>

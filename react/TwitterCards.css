@@ -1,13 +1,21 @@
 .tweets {
   margin: 0;
-  background-color: #F7EEED;
+  background-color: #F7F6F7;
   padding: 7px 31px;
+}
+
+.twitterMainContainer {
+  max-width: 1280px;
 }
 
 .tweetsContainer {
   width: 100%;
   margin: 0;
   justify-content: center;
+}
+
+.title {
+  color: #3B214F;
 }
 
 .tweets li {
@@ -26,21 +34,21 @@
   width: 33%;
   padding: 60px;
   box-sizing: border-box;
-  background-color: #212221;
+  background-color: #3B214F;
   align-items: center;
   justify-content: center;
 }
 
 .locationContainerMobile {
   padding: 20px;
-  background-color: #212221;
+  background-color: #3B214F;
 }
 
 .location {
-  color: #F7EEED;
+  color: #FFF;
   margin: 0;
 }
 
 .userName {
-  color: #BC645A;
+  color: #3B214F;
 }
